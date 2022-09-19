@@ -1,0 +1,18 @@
+.link-client {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    transition: border-color var(--animation-cubik),
+        fill var(--animation-cubik);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);}
+}

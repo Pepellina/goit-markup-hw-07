@@ -1,0 +1,16 @@
+.section-clients {
+    display: flex;
+    justify-items: space-beetween;
+}
+
+
+.list-client {
+    display: flex;
+}
+
+.item-client {
+    margin-left: 30px;
+
+    .list-client &:first-child {
+        margin-left: 0;}
+}

@@ -1,0 +1,15 @@
+.logo-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-right: 93px;
+}
+
+.logo-header__logo-part {
+    color: #000000;
+}
